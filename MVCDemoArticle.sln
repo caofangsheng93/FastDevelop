@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CURD.BLL", "CURD.BLL\CURD.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CURD.DAL", "CURD.DAL\CURD.DAL.csproj", "{27360E63-6D75-4D93-95CE-EDA9A79546C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CURD.Service", "CURD.Service\CURD.Service.csproj", "{47F9C423-94B5-4CE6-8B57-B61FFDD10834}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CURD.Service", "CURD.Service\CURD.Service.csproj", "{35D2EFB5-DCD3-4634-BF5B-0234A0EB69B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{27360E63-6D75-4D93-95CE-EDA9A79546C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27360E63-6D75-4D93-95CE-EDA9A79546C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27360E63-6D75-4D93-95CE-EDA9A79546C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47F9C423-94B5-4CE6-8B57-B61FFDD10834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47F9C423-94B5-4CE6-8B57-B61FFDD10834}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47F9C423-94B5-4CE6-8B57-B61FFDD10834}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47F9C423-94B5-4CE6-8B57-B61FFDD10834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D2EFB5-DCD3-4634-BF5B-0234A0EB69B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D2EFB5-DCD3-4634-BF5B-0234A0EB69B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D2EFB5-DCD3-4634-BF5B-0234A0EB69B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D2EFB5-DCD3-4634-BF5B-0234A0EB69B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
