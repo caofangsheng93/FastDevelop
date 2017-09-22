@@ -77,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\EmployeeAPIController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -93,8 +94,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CURD.BLL\CURD.BLL.csproj">
+      <Project>{e01db084-4d80-4aa7-b505-76ca1b252391}</Project>
+      <Name>CURD.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CURD.DAL\CURD.DAL.csproj">
+      <Project>{27360e63-6d75-4d93-95ce-eda9a79546c6}</Project>
+      <Name>CURD.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
